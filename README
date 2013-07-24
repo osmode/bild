@@ -12,7 +12,7 @@ How to use bilder:
 	c. Start the Django development server (or run your production server)	
 	b. Go to 'localhost:8000/remember' (or 'localhost:8000/xremember') to compress the images and store them in your MySQL database
 
-3. The input image(s) should be put in the folder 'inputimage' (if JPEG) or 'xinputimage' (if DICOM). This folder MUST BE EMPTY except for a single image until the bug preventing multiple input images is resolved.
+3. The input image(s) should be put in the folder 'inputimage' (if JPEG) or 'xinputimage' (if DICOM). 
 
 4. Go to 'localhost:8000/detect/' (if using input JPEGS) or 'localhost:8000/xdetect/' (if using input DICOM). A marked image named 'input.marked'
 will be created the 'markedimage' folder.
